@@ -1,5 +1,7 @@
+import * as colors from './colors';
+
 export MuiThemeProvider from './MuiThemeProvider';
-export * as colors from './colors';
+export colors;
 export darkBaseTheme from './baseThemes/darkBaseTheme';
 export DarkRawTheme from './baseThemes/darkBaseTheme';
 export lightBaseTheme from './baseThemes/lightBaseTheme';
